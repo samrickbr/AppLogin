@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/edtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:bootstrapSize="lg"
+        app:bootstrapBrand="info"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        app:roundedCorners="true"
+        />
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/edtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:bootstrapSize="lg"
+        app:bootstrapBrand="info"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:ems="10"
+        app:roundedCorners="true"
+        />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        app:bootstrapBrand="success"
+        app:bootstrapSize="xl"
+        app:buttonMode="regular"
+        app:showOutline="false"
+        app:roundedCorners="true"
+        />
+
+    <TextView
+        android:id="@+id/registerLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Don't have an account yet? \n  Click here to register!"
+        android:textColor="#03A9F4"
+        />
+
+</LinearLayout>

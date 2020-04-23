@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginTop="-47dp">
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/edtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        app:bootstrapBrand="info"
+        app:bootstrapSize="lg"
+        app:roundedCorners="true" />
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/edtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Password"
+        app:bootstrapBrand="info"
+        app:bootstrapSize="lg"
+        app:roundedCorners="true"
+        android:inputType="textPassword"/>
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:baselineAligned="false"
+        android:text="Login"
+        app:bootstrapBrand="success"
+        app:bootstrapSize="xl"
+        app:buttonMode="regular"
+        app:roundedCorners="true"
+        app:showOutline="false" />
+</LinearLayout>
